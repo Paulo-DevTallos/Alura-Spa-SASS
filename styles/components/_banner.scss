@@ -1,0 +1,28 @@
+.banner {
+	background-image: url('/imagens/banner.jpeg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	opacity: 0.9;
+	min-height: 350px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	.inner-banner {
+		padding: 3rem;
+		background-color: $third-color;
+		opacity: 0.8;
+		border-radius: 20px;
+
+		h1 {
+			font-size: $font-size-text;
+			color: $primary-color;
+		}
+
+		h2 {
+			font-size: $font-size-text / 2;
+			color: $secondary-color;
+		}
+	}
+}
