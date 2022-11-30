@@ -7,3 +7,5 @@ Obs: arquivo .map (arquivo de configuração do CSS)
 import html
 para utilizar o arquivo gerado é necessario referenciar o arquivo .CSS, pois o navegador nao entende arquivos de extensao Sass ou Scss
 o que acontece na prática é que escrevemos codigo css em extensao sass // scss e esse arquivo é compilado para css
+
+entender escopo das variaveis com Sass
