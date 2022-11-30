@@ -1,0 +1,16 @@
+@mixin bg-colors($colors...)
+	background: linear-gradient(to left, $colors...)
+
+footer
+	text-align: center
+	border-top: 2px solid $primary-color
+	font-size: $font-size-text / 3.5
+	margin-top: 1rem
+	padding: 1.2rem
+	background: $primary-color
+	color: $third-color
+	//@include bg-colors($primary-color, $secondary-color, $third-color)
+
+	i
+		color: red
+
